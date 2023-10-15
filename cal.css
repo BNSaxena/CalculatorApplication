@@ -1,0 +1,75 @@
+
+.background{
+    background-image:url("Images/Calculator_back_img2.jpg");
+    position: relative;
+    backface-visibility:inherit;
+    scroll-behavior: smooth;
+    background-size: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator{
+    border: 1px solid rgb(5, 139, 119);
+    padding: 20px;
+    border-radius: 16px;
+    background:transparent ;
+    box-shadow: 1px 3px 15px #bbced2;
+    margin-top: 10%;
+    margin-left: 30%;
+
+}
+input{
+    width: 254px;
+    border: 1px solid #0dcaf0;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px #bbced2;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: transparent;
+    color: #083434;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 5px 5px 25px rgb(127, 127, 121);
+    cursor: pointer;
+
+}
+button:active{
+    color: aqua;
+}
+
+.Equalbtn{
+    background-color: #0dcaf0;
+    color: rgb(14, 22, 14);
+}
+.operator{
+    color: #0dcaf0;
+}
+@media screen and (max-width:800px){
+    .background{
+        
+        background-image: none;
+        
+
+    }
+}
